@@ -42,7 +42,7 @@ type APIError struct {
 	Code int
 }
 
-// APIError is an error
+// Error is an error
 func (a *APIError) Error() string {
 	return a.Msg
 }
